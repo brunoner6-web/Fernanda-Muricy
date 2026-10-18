@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fernanda Muricy · Apresentação</title>
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<script src="./image-slot.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Parisienne&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap">
+<style>
+  body { margin: 0; background: #201e1d; }
+  a { color: #8c491a; }
+  a:hover { color: #643312; }
+</style>
+</helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+  <section data-label="Capa" data-screen-label="01" data-speaker-notes="Abertura. Apresentar a Fernanda e o posicionamento: Análise do Comportamento para criança, adolescente e adulto." style="background: #f5ead8; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; display: grid; grid-template-columns: 1.08fr 0.92fr; overflow: hidden">
+    <div style="padding: 120px 100px; display: flex; flex-direction: column; justify-content: center">
+      <div style="font-family: 'Parisienne', cursive; font-size: 70px; line-height: 1; color: #402310">Fernanda Muricy</div>
+      <div style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #645c50; margin-top: 14px">Psicóloga · CRP-03/30964</div>
+      <div style="width: 80px; height: 1px; background: #c67139; margin: 56px 0"></div>
+      <h1 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 82px; line-height: 1.08; letter-spacing: 0.005em; margin: 0; max-width: 20ch; text-wrap: balance">Menos birra, mais compreensão em casa.</h1>
+      <p style="font-size: 30px; line-height: 1.6; color: #474238; max-width: 34ch; margin: 36px 0 0">Atendimento psicológico infantil, adolescente e adulto com base na Análise do Comportamento.</p>
+    </div>
+    <div style="position: relative; background: #ebddc5">
+      <div style="position: absolute; inset: 0; overflow: hidden">
+        <image-slot id="deck-capa" shape="rect" placeholder="Foto da Fernanda (retrato vertical)"></image-slot>
+      </div>
+      <div style="position: absolute; right: -180px; top: -180px; width: 520px; height: 520px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.3)"></div>
+    </div>
+  </section>
+
+  <section data-label="O ponto de partida" data-screen-label="02" data-speaker-notes="A dor: os pais chegam exaustos, já tentaram tudo. Nomear isso antes de propor solução." style="background: #f5ead8; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 130px 150px; display: flex; flex-direction: column; justify-content: center">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 40px">
+      <span style="width: 44px; height: 1px; background: #c67139"></span>
+      <span style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #8c491a">O ponto de partida</span>
+    </div>
+    <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 66px; line-height: 1.22; margin: 0 0 52px; max-width: 30ch; text-wrap: pretty">Você já tentou de tudo. Conversar, impor limite, pesquisar na internet. E o comportamento do seu filho continua igual — ou pior.</p>
+    <p style="font-size: 32px; line-height: 1.65; color: #474238; max-width: 62ch; margin: 0 0 26px">Muitas vezes o que a criança mostra pra fora é reflexo de algo que a família inteira precisa entender melhor, inclusive os adultos.</p>
+    <p style="font-size: 32px; line-height: 1.65; color: #8c491a; max-width: 62ch; margin: 0">Se o problema é do seu filho, do seu adolescente, ou seu — tem caminho.</p>
+  </section>
+
+  <section data-label="Se você se identifica" data-screen-label="03" data-speaker-notes="Seis situações que trazem as famílias ao consultório. Ler uma ou duas em voz alta e deixar o público reconhecer as suas." style="background: #ebddc5; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 100px 130px; display: flex; flex-direction: column; justify-content: center">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 26px">
+      <span style="width: 44px; height: 1px; background: #c67139"></span>
+      <span style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #8c491a">O que costuma trazer as famílias aqui</span>
+    </div>
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 60px; line-height: 1.15; margin: 0 0 54px; max-width: 30ch">Se você se identifica com algum desses pontos, vale a conversa:</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+      <div style="display: flex; gap: 20px; align-items: flex-start; background: rgba(249,244,237,0.75); border: 1px solid rgba(198,113,57,0.22); border-radius: 20px; padding: 32px 30px">
+        <span style="flex: none; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; color: #8c491a">01</span>
+        <span style="font-size: 26px; line-height: 1.5">Seu filho tem crises de birra que parecem não ter fim</span>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; background: rgba(249,244,237,0.75); border: 1px solid rgba(198,113,57,0.22); border-radius: 20px; padding: 32px 30px">
+        <span style="flex: none; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; color: #8c491a">02</span>
+        <span style="font-size: 26px; line-height: 1.5">Ele não obedece comando nem regra, nem em casa nem na escola</span>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; background: rgba(249,244,237,0.75); border: 1px solid rgba(198,113,57,0.22); border-radius: 20px; padding: 32px 30px">
+        <span style="flex: none; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; color: #8c491a">03</span>
+        <span style="font-size: 26px; line-height: 1.5">Você desconfia de algo a mais (TEA, TDAH, dificuldade de aprendizagem) e não sabe por onde começar a investigar</span>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; background: rgba(249,244,237,0.75); border: 1px solid rgba(198,113,57,0.22); border-radius: 20px; padding: 32px 30px">
+        <span style="flex: none; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; color: #8c491a">04</span>
+        <span style="font-size: 26px; line-height: 1.5">Seu adolescente se fecha, e você sente que “ninguém mais o entende” — nem você</span>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; background: rgba(249,244,237,0.75); border: 1px solid rgba(198,113,57,0.22); border-radius: 20px; padding: 32px 30px">
+        <span style="flex: none; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; color: #8c491a">05</span>
+        <span style="font-size: 26px; line-height: 1.5">Você mesmo sente que não sabe lidar com suas próprias emoções, e isso reflete em como trata os filhos</span>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; background: rgba(249,244,237,0.75); border: 1px solid rgba(198,113,57,0.22); border-radius: 20px; padding: 32px 30px">
+        <span style="flex: none; width: 48px; height: 48px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; color: #8c491a">06</span>
+        <span style="font-size: 26px; line-height: 1.5">A ansiedade ou a tristeza têm tomado conta do seu dia a dia e você não sabe mais o que fazer sozinho</span>
+      </div>
+    </div>
+    <p style="font-size: 28px; line-height: 1.6; color: #474238; margin: 48px 0 0; padding-top: 34px; border-top: 1px solid rgba(32,30,29,0.16); max-width: 70ch">Nenhum desses pontos é “frescura” nem “fase”. Todos são comportamento — e comportamento pode ser entendido e trabalhado.</p>
+  </section>
+
+  <section data-label="A abordagem" data-screen-label="04" data-speaker-notes="Explicar a Análise do Comportamento em uma frase: comportamento é observável e pode ser mudado." style="background: #f5ead8; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 130px 150px; display: flex; flex-direction: column; justify-content: center">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 40px">
+      <span style="width: 44px; height: 1px; background: #c67139"></span>
+      <span style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #8c491a">A abordagem</span>
+    </div>
+    <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 62px; line-height: 1.22; margin: 0 0 60px; max-width: 34ch; text-wrap: pretty">O atendimento é feito com base na Análise do Comportamento, uma abordagem que olha o comportamento como algo que pode ser entendido e trabalhado.</p>
+    <p style="font-size: 32px; line-height: 1.6; color: #474238; max-width: 60ch; margin: 0">Não como “birra de criança mimada” ou “fase difícil sem solução”. O objetivo é comportamento novo, prático, observável no dia a dia.</p>
+  </section>
+
+  <section data-label="Três frentes" data-screen-label="05" data-speaker-notes="As três frentes de atendimento: neuropsicológica, crianças e adolescentes, adultos. Cada uma tem página própria no site." style="background: #ebddc5; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 120px 130px; display: flex; flex-direction: column; justify-content: center">
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 68px; line-height: 1.12; margin: 0 0 64px">Três frentes de atendimento</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px">
+      <div style="background: #f9f4ed; border-radius: 22px; padding: 48px 42px">
+        <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 58px; line-height: 1; color: rgba(198,113,57,0.5)">01</div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 38px; line-height: 1.2; margin: 18px 0 20px">Crianças e adolescentes</h3>
+        <p style="font-size: 26px; line-height: 1.6; color: #474238; margin: 0">Entender o que gera a birra e ensinar novos jeitos de lidar com frustração, comando e regra. Para o adolescente, um espaço de acolhimento sem julgamento.</p>
+      </div>
+      <div style="background: #f9f4ed; border-radius: 22px; padding: 48px 42px">
+        <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 58px; line-height: 1; color: rgba(198,113,57,0.5)">02</div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 38px; line-height: 1.2; margin: 18px 0 20px">Adultos</h3>
+        <p style="font-size: 26px; line-height: 1.6; color: #474238; margin: 0">Trabalhar o autoconhecimento e os conflitos internos que, muitas vezes, se refletem direto na educação dos filhos.</p>
+      </div>
+      <div style="background: #f9f4ed; border-radius: 22px; padding: 48px 42px">
+        <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 58px; line-height: 1; color: rgba(198,113,57,0.5)">03</div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 38px; line-height: 1.2; margin: 18px 0 20px">Avaliação neuropsicológica</h3>
+        <p style="font-size: 26px; line-height: 1.6; color: #474238; margin: 0">Investigação séria e cuidadosa de possíveis transtornos (TEA, TDAH, aprendizagem), sem alarmismo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Sobre a Fernanda" data-screen-label="06" data-speaker-notes="Credenciais: atua desde 2021, dois anos como psicóloga formada, casos de TEA, TDAH, transtorno de aprendizagem, ansiedade e depressão." style="background: #f5ead8; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; display: grid; grid-template-columns: 0.85fr 1.15fr; overflow: hidden">
+    <div style="position: relative; background: #ebddc5; overflow: hidden">
+      <image-slot id="deck-sobre" shape="rect" placeholder="Foto do consultório ou atendimento"></image-slot>
+    </div>
+    <div style="padding: 120px 110px; display: flex; flex-direction: column; justify-content: center">
+      <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 34px">
+        <span style="width: 44px; height: 1px; background: #c67139"></span>
+        <span style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #8c491a">Quem atende</span>
+      </div>
+      <div style="font-family: 'Parisienne', cursive; font-size: 62px; line-height: 1.1; color: #402310; margin-bottom: 10px">Fernanda Muricy</div>
+      <div style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #645c50; margin-bottom: 44px">Psicóloga · CRP-03/30964</div>
+      <p style="font-size: 34px; line-height: 1.6; margin: 0 0 30px; max-width: 42ch">Fernanda atua desde 2021 (como estagiária) e, desde então, já são dois anos como psicóloga formada.</p>
+      <p style="font-size: 30px; line-height: 1.6; color: #474238; margin: 0; max-width: 42ch">Atende casos de TEA, TDAH, Transtorno de Aprendizagem, ansiedade e depressão — criança, adolescente e adulto.</p>
+    </div>
+  </section>
+
+  <section data-label="O que muda em casa" data-screen-label="07" data-speaker-notes="Os resultados esperados. Lembrar que variam de caso a caso." style="background: #ebddc5; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 110px 130px; display: flex; flex-direction: column; justify-content: center">
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 68px; line-height: 1.12; margin: 0 0 56px">O que muda em casa</h2>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 70px">
+      <div style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid rgba(32,30,29,0.16); padding-bottom: 24px"><span style="flex: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; color: #c67139">✦</span><span style="font-size: 27px; line-height: 1.5">Menos birra em casa — mais paz no dia a dia da família</span></div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid rgba(32,30,29,0.16); padding-bottom: 24px"><span style="flex: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; color: #c67139">✦</span><span style="font-size: 27px; line-height: 1.5">Seu filho passa a entender e respeitar regras, sem a guerra diária</span></div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid rgba(32,30,29,0.16); padding-bottom: 24px"><span style="flex: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; color: #c67139">✦</span><span style="font-size: 27px; line-height: 1.5">Você aprende a ler o que seu filho sente, mesmo quando ele não sabe explicar</span></div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid rgba(32,30,29,0.16); padding-bottom: 24px"><span style="flex: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; color: #c67139">✦</span><span style="font-size: 27px; line-height: 1.5">Seu adolescente se sente ouvido — e você recupera a proximidade com ele</span></div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid rgba(32,30,29,0.16); padding-bottom: 24px"><span style="flex: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; color: #c67139">✦</span><span style="font-size: 27px; line-height: 1.5">Investigação séria de possíveis transtornos (TEA, TDAH, aprendizagem), sem alarmismo</span></div>
+      <div style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid rgba(32,30,29,0.16); padding-bottom: 24px"><span style="flex: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; color: #c67139">✦</span><span style="font-size: 27px; line-height: 1.5">Redução da ansiedade e sintomas depressivos, com acompanhamento constante</span></div>
+    </div>
+  </section>
+
+  <section data-label="Como funciona" data-screen-label="08" data-speaker-notes="Três passos, do primeiro contato ao acompanhamento. Reforçar que a primeira sessão é de avaliação." style="background: #f5ead8; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 130px 150px; display: flex; flex-direction: column; justify-content: center">
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 68px; line-height: 1.12; margin: 0 0 72px">Como funciona</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 52px">
+      <div>
+        <div style="width: 96px; height: 96px; border-radius: 999px; background: #ffe1d0; color: #402310; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 44px; display: flex; align-items: center; justify-content: center; margin-bottom: 30px">1</div>
+        <p style="margin: 0; font-size: 30px; line-height: 1.55">Você chama no WhatsApp e conta rapidamente a situação</p>
+      </div>
+      <div>
+        <div style="width: 96px; height: 96px; border-radius: 999px; background: #ffe1d0; color: #402310; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 44px; display: flex; align-items: center; justify-content: center; margin-bottom: 30px">2</div>
+        <p style="margin: 0; font-size: 30px; line-height: 1.55">Fernanda agenda a primeira sessão de avaliação (50 minutos)</p>
+      </div>
+      <div>
+        <div style="width: 96px; height: 96px; border-radius: 999px; background: #ffe1d0; color: #402310; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 44px; display: flex; align-items: center; justify-content: center; margin-bottom: 30px">3</div>
+        <p style="margin: 0; font-size: 30px; line-height: 1.55">A partir daí, sessões semanais ou quinzenais, no ritmo que fizer sentido pro caso</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Investimento" data-screen-label="09" data-speaker-notes="Valores e formas de pagamento. Destacar a nota fiscal para reembolso do convênio." style="background: #ebddc5; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 120px 130px; display: flex; flex-direction: column; justify-content: center">
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 68px; line-height: 1.12; margin: 0 0 56px">Investimento</h2>
+    <div style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 36px; align-items: stretch">
+      <div style="background: #f9f4ed; border-radius: 22px; padding: 56px 52px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding-bottom: 26px; border-bottom: 1px solid rgba(32,30,29,0.16)">
+          <span style="font-size: 30px">1ª sessão (avaliação)</span>
+          <span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 54px; color: #8c491a">R$180</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding-top: 26px">
+          <span style="font-size: 30px">Demais sessões</span>
+          <span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 54px; color: #8c491a">R$150</span>
+        </div>
+        <p style="margin: 34px 0 0; font-size: 26px; line-height: 1.6; color: #474238">Pacote mensal com desconto disponível. Pagamento particular, com nota fiscal para reembolso do convênio, ou parcelado no cartão. Sessões de 50 minutos.</p>
+      </div>
+      <div style="background: #fff2eb; border-radius: 22px; padding: 56px 52px; display: flex; flex-direction: column; justify-content: center">
+        <div style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #643312; margin-bottom: 24px">Sem pacote fechado</div>
+        <p style="margin: 0; font-size: 28px; line-height: 1.6; color: #2e2b25">A primeira sessão é dedicada à avaliação cuidadosa do caso — sem processo engessado, sem pacote fechado de sessões obrigatórias. Você acompanha a evolução sessão a sessão e decide o ritmo junto com Fernanda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Antes que você pense" data-screen-label="10" data-speaker-notes="Quebra de objeções: custo, resistência do filho, dúvida sobre eficácia, e a sensação de que não é grave o suficiente." style="background: #f5ead8; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 110px 130px; display: flex; flex-direction: column; justify-content: center">
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 68px; line-height: 1.12; margin: 0 0 56px">Antes que você pense…</h2>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 60px">
+      <div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 36px; margin: 0 0 14px; color: #8c491a">“Mas é caro…”</h3>
+        <p style="margin: 0; font-size: 26px; line-height: 1.6; color: #474238">Pensa no custo de continuar sem resolver: o desgaste diário, a ansiedade que não passa, a relação que vai ficando distante. Há pacote mensal com desconto e nota fiscal para reembolso.</p>
+      </div>
+      <div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 36px; margin: 0 0 14px; color: #8c491a">“Meu filho não vai querer ir…”</h3>
+        <p style="margin: 0; font-size: 26px; line-height: 1.6; color: #474238">É comum. Parte do trabalho é criar um espaço onde a criança e o adolescente se sintam seguros — não é obrigar a ir, é construir confiança aos poucos.</p>
+      </div>
+      <div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 36px; margin: 0 0 14px; color: #8c491a">“Não sei se terapia resolve isso…”</h3>
+        <p style="margin: 0; font-size: 26px; line-height: 1.6; color: #474238">A Análise do Comportamento trabalha com o que se pode observar e mudar no dia a dia. O objetivo é comportamento novo, prático, mensurável.</p>
+      </div>
+      <div>
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 36px; margin: 0 0 14px; color: #8c491a">“Não é sério o suficiente…”</h3>
+        <p style="margin: 0; font-size: 26px; line-height: 1.6; color: #474238">Não precisa esperar piorar. Quanto antes o comportamento for entendido, mais fácil o processo — pra criança, pro adolescente e pra família toda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Dúvidas frequentes" data-screen-label="11" data-speaker-notes="Perguntas práticas: duração, convênio, investigação de transtornos, terapia para o próprio adulto." style="background: #ebddc5; color: #201e1d; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 110px 130px; display: flex; flex-direction: column; justify-content: center">
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 68px; line-height: 1.12; margin: 0 0 54px">Perguntas frequentes</h2>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px">
+      <div style="background: #f9f4ed; border-radius: 20px; padding: 38px 36px">
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 32px; margin: 0 0 12px">Quanto tempo dura o processo?</h3>
+        <p style="margin: 0; font-size: 25px; line-height: 1.6; color: #474238">Varia de caso a caso. O acompanhamento costuma ser semanal ou quinzenal, e a evolução é observada sessão a sessão.</p>
+      </div>
+      <div style="background: #f9f4ed; border-radius: 20px; padding: 38px 36px">
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 32px; margin: 0 0 12px">Atende convênio?</h3>
+        <p style="margin: 0; font-size: 25px; line-height: 1.6; color: #474238">O atendimento é particular. Fernanda emite nota fiscal para você solicitar o reembolso direto no seu convênio, se ele tiver essa modalidade.</p>
+      </div>
+      <div style="background: #f9f4ed; border-radius: 20px; padding: 38px 36px">
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 32px; margin: 0 0 12px">Meu filho não fala sobre o que sente. É um problema?</h3>
+        <p style="margin: 0; font-size: 25px; line-height: 1.6; color: #474238">Não. Parte do trabalho é ajudar a criança e o adolescente a desenvolver essa expressividade emocional aos poucos.</p>
+      </div>
+      <div style="background: #f9f4ed; border-radius: 20px; padding: 38px 36px">
+        <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 32px; margin: 0 0 12px">E se eu quiser terapia para mim?</h3>
+        <p style="margin: 0; font-size: 25px; line-height: 1.6; color: #474238">Fernanda atende adultos também — inclusive é comum pais iniciarem o próprio processo junto com o do filho.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Fechamento" data-screen-label="12" data-speaker-notes="Fechamento e chamada para ação: WhatsApp e Instagram. Resposta em até um dia útil." style="background: #201e1d; color: #f5ead8; font-family: 'Jost', system-ui, sans-serif; font-weight: 300; padding: 130px 150px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden">
+    <div style="position: absolute; right: -200px; bottom: -220px; width: 620px; height: 620px; border-radius: 999px; border: 1px solid rgba(198,113,57,0.35)"></div>
+    <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 72px; line-height: 1.18; margin: 0 0 48px; max-width: 30ch; text-wrap: pretty; position: relative">Dá pra mudar essa história — uma sessão por vez.</p>
+    <p style="font-size: 32px; line-height: 1.6; color: #dcd3c4; max-width: 52ch; margin: 0 0 64px; position: relative">Muitas vezes, o comportamento que mais incomoda em casa é também o que mais tem solução — quando é entendido da forma certa.</p>
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; position: relative">
+      <div>
+        <div style="font-family: 'Parisienne', cursive; font-size: 58px; line-height: 1.1; color: #f5ead8">Fernanda Muricy</div>
+        <div style="font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: #a19786; margin-top: 10px">Psicóloga · CRP-03/30964</div>
+      </div>
+      <div style="text-align: right">
+        <div style="font-size: 30px; color: #ffc6a5">WhatsApp · resposta em até 1 dia útil</div>
+        <div style="font-size: 30px; color: #f5ead8; margin-top: 12px">@psifernandamuricy</div>
+      </div>
+    </div>
+  </section>
+
+</x-import>
+</x-dc>
+</body>
+</html>
